@@ -51,12 +51,13 @@ public enum LegacyFreeBusyStatus {
    * The OOF.
    */
   OOF(3),
+  WorkingElsewhere(4)
 
   // No free/busy status is associated with the appointment.
   /**
    * The No data.
    */
-  NoData(4);
+  NoData(5);
 
   /**
    * The busy status.
